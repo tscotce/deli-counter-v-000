@@ -4,13 +4,12 @@ def line(katz_deli)
   if katz_deli.length == 0 
     puts "The line is currently empty."
   elsif katz_deli.length > 0 
-  helper_array = []
+    helper_array = []
     katz_deli.each_with_index do |name, index|
       line = "#{index+1}. #{name}"
       helper_array.push(line)
-
-    puts "The line is currently: #{helper_array}"
-      end
+      puts "The line is currently: #{helper_array}"
+    end
   end
 end
 
