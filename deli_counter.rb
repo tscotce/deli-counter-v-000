@@ -8,8 +8,8 @@ def line(katz_deli)
       helper_array = []
       helper_array << index+1
       helper_array << name
-    end
     helper_array.join()
+  end
     puts "The line is currently: #{helper_array}"  
   end
 end
