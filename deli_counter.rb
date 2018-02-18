@@ -6,6 +6,7 @@ def line(katz_deli)
   elsif katz_deli.length > 0 
     katz_deli.each_with_index do |name, index|
       helper_array << index+1
+      helper_array << name
     end
     helper_array.join()
     puts "The line is currently: #{index+1}. #{name}"  
