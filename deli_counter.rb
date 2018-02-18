@@ -10,6 +10,6 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli << name
-  number = 
+  number = name.index-1
   puts "Welcome, #{name}. You are number #{number} in line."
 end
