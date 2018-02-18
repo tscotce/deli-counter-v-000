@@ -6,6 +6,7 @@ def line(katz_deli)
   elsif katz_deli.length > 0 
     katz_deli.each_with_index do |name, index|
       line = "#{index+1}. #{name}"
+      helper_array.push(line)
     end
   end
 end
