@@ -8,9 +8,8 @@ def line(katz_deli)
     katz_deli.each_with_index do |name, index|
       line = "#{index+1}. #{name}"
       helper_array.push(line)
-      #puts "The line is currently: #{helper_array}"
     end
-    puts helper_array.join(" ")
+    puts "The line is currently: #{helper_array.join(" ")}"
   end
 end
 
