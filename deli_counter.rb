@@ -5,12 +5,8 @@ def line(katz_deli)
     puts "The line is currently empty."
   elsif katz_deli.length > 0 
     katz_deli.each_with_index do |name, index|
-      #helper_array = []
-      #helper_array << index+1
-      #helper_array << name
-    #helper_array.join(". ")
-    puts "The line is currently: #{index+1}. #{name}" 
-  end
+      puts "The line is currently: #{index+1}. #{name}" 
+    end
   end
 end
 
