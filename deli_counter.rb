@@ -10,7 +10,7 @@ def line(katz_deli)
       helper_array.push(line)
       #puts "The line is currently: #{helper_array}"
     end
-    puts helper_array.join
+    puts helper_array.join(" ")
   end
 end
 
