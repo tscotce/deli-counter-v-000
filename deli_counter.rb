@@ -9,7 +9,12 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  katz_deli << name
-  number = katz_deli.index(name)-1
-  puts "Welcome, #{name}. You are number #{number} in line."
+  if katz_deli.length == 0
+   katz_deli << name
+   puts "Welcome, #{name}. You are number 1 in line."
+  elsif katz_deli.length > 0
+    katz_deli << name
+    number = katz_deli.index(name)-1
+    puts "Welcome, #{name}. You are number #{number} in line."
+  end
 end
