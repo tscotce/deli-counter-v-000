@@ -24,7 +24,6 @@ def now_serving(katz_deli, name)
     puts "There is nobody waiting to be served!"
   elsif katz_deli.length > 0 
     name = katz_deli[-1]
-    #number = katz_deli[-1]
     puts "Currently serving #{name}."
   end
 end
