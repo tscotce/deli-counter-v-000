@@ -4,7 +4,7 @@ def line(katz_deli)
   if katz_deli.length == 0 
     puts "The line is currently empty."
   elsif katz_deli.length > 0 
-    puts "The line is currently: #{katz_deli.index+1}. #{katz_deli[0]} #{katz_deli.index+2}. #{katz_deli[1]} #{katz_deli.index+3}. #{katz_deli[2]}"
+    puts "The line is currently: #{katz_deli.index[0]+1}. #{katz_deli[0]} #{katz_deli.index[1]+2}. #{katz_deli[1]} #{katz_deli.index[2]+3}. #{katz_deli[2]}"
   end
 end
 
