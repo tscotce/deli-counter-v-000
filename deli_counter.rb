@@ -9,7 +9,7 @@ def line(katz_deli)
       helper_array << name
     end
     helper_array.join()
-    puts "The line is currently: #{index+1}. #{name}"  
+    puts "The line is currently: #{helper_array}"  
     end
   end
 end
